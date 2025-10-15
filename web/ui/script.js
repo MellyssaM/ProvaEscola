@@ -1,5 +1,5 @@
-// script.js (corrigido)
-let turmaAtualId = null; // global para atividades
+
+let turmaAtualId = null; 
 let usuarioGlobal = null;
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -8,17 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!usuario) {
     alert("Você precisa estar logado para acessar esta página!");
-    window.location.href = "../login/index.html"; // corrigido
+    window.location.href = "../login/index.html"; 
     return;
   }
 
-  // Criar botão logout
+ 
   criarBotaoLogout();
 
-  // garantir que o botão de nova turma esteja visível
+
   document.getElementById("btnCadastrarTurma").style.display = "inline-block";
 
-  // configurar eventos básicos de UI
   document.getElementById("btnVoltarTurmas").addEventListener("click", voltarParaTurmas);
 
   carregarTurmas(usuario);
@@ -26,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
   configurarModais();
 });
 
-// Função para criar botão logout
+
 function criarBotaoLogout() {
   const topbar = document.querySelector(".topbar");
   const btnLogout = document.createElement("button");

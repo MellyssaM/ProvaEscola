@@ -1,6 +1,12 @@
 ## Gerenciador de Turmas e Atividades
 Gerenciador de Turmas e Atividades com usuario Professor e Aluno, Professor com certas permissões e Aluno tambem
 
+## Wireframes
+
+![DCU](./docs/ChatGPT%20Image%2015_10_2025,%2016_20_34.png)
+![DCU](./docs/ChatGPT%20Image%2015_10_2025,%2017_11_57.png)
+
+
 ## Como testar 
 1. Configure o ambiente de desenvolvimento com as seguintes ferramentas.
 

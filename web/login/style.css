@@ -19,7 +19,7 @@ body {
   background: #fff;
   padding: 40px 50px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px #2196f3;
   text-align: center;
   width: 320px;
 }
